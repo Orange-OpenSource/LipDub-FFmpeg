@@ -1,0 +1,12 @@
+LipDub for Android is based in part on work of the FFmpeg project. Those parts are distributed under the LGPL 2.1 license, and the source code and instructions for building FFmpeg for Android are available for download here.
+
+The version of FFmpeg used was built from bambuser's open source page as a starting point.
+http://bambuser.com/opensource
+
+This version has been tested with Android NDK revision 5b.
+http://developer.android.com/sdk/ndk/index.html
+
+We unzipped our NDK to ~/Android/android-ndk-r5b 
+(if you use a different directory please modify the build.sh script)
+
+To build run the build.sh script.
